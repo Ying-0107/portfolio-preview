@@ -104,23 +104,29 @@ a:focus-visible {
 .work-thumbnail {
     display: block;
     overflow: hidden;
-    aspect-ratio: 7 / 10;
+    aspect-ratio: 11 / 16;
     border: 1px solid #e5e5e5;
     border-radius: 4px;
     background: #f3f3f3;
     overflow-y: scroll;
 }
+
+
 .work-thumbnail::-webkit-scrollbar {
-    width: 1px;
-    height: 10px;
+    width: 3px;
+}
+
+.work-thumbnail::-webkit-scrollbar-thumb {
+    background: #777;
 }
 .work-thumbnail::-webkit-scrollbar-thumb {
-    background: #777777;
-    border-radius: 30px;
-    border: 10px solid #777777;
+    background: #999;
 }
 .work-thumbnail::-webkit-scrollbar-track {
-    background: inherit;
+    background: #777;
+}
+.work-thumbnail::-webkit-scrollbar-track {
+    background: #ffffff;
 }
 
 
